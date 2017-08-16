@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<div class="main1">   
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="manifest" href="manifest.json">
+
+
+<div class="w3-content w3-section w3-animate-zoom" style="max-width:100%;
+    min-height:135px;
+    background-color:black;
+    padding-top:5%;
+    padding-bottom:0%;
+    align-items: center;
+    vertical-align:middle;
+    ;
+    
+    float:center;
+    position:relative;
+    ">
+    
+ 
+ 
+    <center>
+        <a href="">
+        <img  class="mySlides w3-animate-zoom" style="vertical-align:middle; background-color:#ffffff;"; src="https://etcgrouponlinecom-my.sharepoint.com/personal/lsmiddy_etcgroup_co/_layouts/15/guestaccess.aspx?docid=1460c9fdb6df04850803fc9ef32cf95e2&authkey=AeJx5JQsvfPdO_yC1tG1l8o"  width="18.5%">
+        </a>        
+       
+        <img class="mySlides w3-animate-zoom" src="https://etcgrouponlinecom-my.sharepoint.com/personal/lsmiddy_etcgroup_co/_layouts/15/guestaccess.aspx?docid=01aab75cd379041b896942e5358377c02&authkey=AZmMnZT87n4WE66U3QYoZ3Q&expiration=2017-08-31T05%3a00%3a00.000Z" style="width:18%;  ">
+  
+        <img class="mySlides w3-animate-zoom" src="https://etcgrouponlinecom-my.sharepoint.com/personal/lsmiddy_etcgroup_co/_layouts/15/guestaccess.aspx?docid=0ffeeb0f77be9426db65077b7dca0dfed&authkey=AZmErokwwQhPfTRk2rH0rek&expiration=2017-08-31T05%3a00%3a00.000Z" style="width:26.7%;  ">
+        <img class="mySlides w3-animate-zoom" src="https://etcgrouponlinecom-my.sharepoint.com/personal/lsmiddy_etcgroup_co/_layouts/15/guestaccess.aspx?docid=01548d13d0a2e48d6a2b72f8abfc979ce&authkey=ARmzYYrD0QuBGhh_Z3i8Ufs&expiration=2017-08-31T05%3a00%3a00.000Z" style="width:25.5%;  ">
+  
+<div class="heading1" style="padding-bottom:0%;">
+   
+    <center>
+       <h3>Our Sponsors</h3>
+    </center>
+    
+</div>
+  
+  </center>
+</div>
+
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+</script>
+
+<div id="mymap"class="map"> 
+<span style="font-size:30px;cursor:pointer" onclick="openNav()"> 
+<img src="https://etcgrouponlinecom-my.sharepoint.com/personal/lsmiddy_etcgroup_co/_layouts/15/guestaccess.aspx?docid=0d82adefe5b7b4f8f9ade9a3434022eb6&authkey=AcrW3BQFmaxSOtdWEXIbS14&expiration=2017-09-30T05%3a00%3a00.000Z"  width="100%" height="auto">
+</span>
+</div>
+</div>
+
+
+
+
+<div id="myNav" class="overlay">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <div class="overlay-content">
+    <img src="https://etcgrouponlinecom-my.sharepoint.com/personal/lsmiddy_etcgroup_co/_layouts/15/guestaccess.aspx?docid=0d82adefe5b7b4f8f9ade9a3434022eb6&authkey=AcrW3BQFmaxSOtdWEXIbS14&expiration=2017-09-30T05%3a00%3a00.000Z"  width="100%" height="auto"> 
+  </div>
+</div>
+
+
+<span style="font-size:30px;cursor:pointer" onclick="openNav()"> </span>
+
+<script>
+function openNav() {
+    document.getElementById("myNav").style.width = "100%";
+}
+
+function closeNav() {
+    document.getElementById("myNav").style.width = "0%";
+}
+</script>
+</html>
